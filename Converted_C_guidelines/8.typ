@@ -1,15 +1,5 @@
-Certainly! Below is a detailed teaching guideline on the topic
-#strong["Find Square Root of a Quadratic Equation"] tailored for a
-beginner-friendly programming bootcamp using C. It focuses on
-understanding quadratic equations, their roots, and implementing logic
-in C to compute roots (including square roots in the formula).
-
-
-
-= Teaching Guideline: Find Square Root of a Quadratic Equation (C Programming)
+= Find Square Root of a Quadratic Equation (C Programming)
 <teaching-guideline-find-square-root-of-a-quadratic-equation-c-programming>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -159,24 +149,3 @@ how roots relate to the graph of the quadratic equation (parabola) and
 its intersection points on the x-axis. \
 #strong[Difficulty:] Easy (conceptual) \
 #strong[Concept:] Linking math with programming, visualization.
-
-
-
-=== Homework 5: Find Vertex of Quadratic Equation
-<homework-5-find-vertex-of-quadratic-equation>
-#strong[Problem:] Write a program to find vertex of parabola given
-(a,b,c). Vertex formula: \
-\[ x\_v = -, y\_v = c - \] \
-Print vertex coordinates. \
-#strong[Difficulty:] Medium \
-#strong[Concept:] Algebra integration with programming, calculations.
-
-
-
-= Summary
-<summary>
-This guideline organizes the topic of finding square roots in quadratic
-equations through programming in C with clear steps, engaging practice
-questions, and challenging homework to reinforce understanding. It
-balances conceptual theory with coding practice, focusing on clarity and
-progressive difficulty to build confidence.

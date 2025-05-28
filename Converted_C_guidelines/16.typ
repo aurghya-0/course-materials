@@ -1,7 +1,5 @@
-= Teaching Guideline: Simple C Programs of the Given Algorithms
+= Simple C Programs of the Given Algorithms
 <teaching-guideline-simple-c-programs-of-the-given-algorithms>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -164,7 +162,3 @@ int main() {
 - Repeat common mistakes and debugging practices.
 - Use visual aids for control flow and loops.
 - Assign pair programming exercises for collaboration.
-
-
-
-#strong[End of Guideline]

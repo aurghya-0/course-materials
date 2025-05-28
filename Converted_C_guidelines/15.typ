@@ -1,7 +1,4 @@
-#strong[Teaching Guideline: Simple Assignment Statement & Basic
-Input/Output Statements in C]
-
-
+= Simple Assignment Statement & Basic Input/Output Statements in C
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -162,11 +159,3 @@ scanf("%d", number);
 number = 5;  
 printf("Number = %f\n", number);
 ```
-
-
-
-#strong[Note:] \
-This guideline is designed for a beginner-friendly but technically sound
-introduction to simple assignment and input/output in C. Emphasize
-active participation with live coding and encourage questions during
-demo sessions for concept reinforcement.

@@ -1,7 +1,5 @@
-= Teaching Guideline: Arithmetic Operators and Expressions, Constants and Literals (C Programming)
+= Arithmetic Operators and Expressions, Constants and Literals (C Programming)
 <teaching-guideline-arithmetic-operators-and-expressions-constants-and-literals-c-programming>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -176,13 +174,3 @@
 - Reinforce learning with mini-quizzes or rapid-fire Q&A sessions.
 - Frequently pause for questions and encourage peer discussions.
 - Provide real-time feedback on student code and approach.
-
-
-
-= Summary
-<summary>
-This teaching guideline offers a structured path from the basics of
-arithmetic operators and expressions to constants and literals in C.
-Students gain theoretical knowledge paired with applied coding
-exercises, designed to build confidence and mastery for practical
-programming tasks.

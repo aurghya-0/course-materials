@@ -1,7 +1,5 @@
-= Teaching Guideline: Precedence & Order of Evaluation in C
+= Precedence & Order of Evaluation in C
 <teaching-guideline-precedence-order-of-evaluation-in-c>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -226,8 +224,3 @@ printf("%d\n", result);
 - Allow for questions and group discussions during in-class exercises.
 - Use homework to reinforce and extend understanding with a mixture of
   conceptual and practical problems.
-
-
-
-This guideline balances theory with practice, reinforcing foundational
-knowledge essential to mastering C programming expressions.
