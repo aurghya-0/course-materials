@@ -1,0 +1,45 @@
+Day,Topic
+1,"The Basic Model of Computation, Algorithms, Flow-charts, Programming"
+2,"Compilation, Linking and Loading, Testing and Debugging,Documentation."
+3,"Programming Style-Names, Documentation & Format, Refinement
+& Modularity."
+4,"Exchanging values of two variables, summation of a set of numbers. Reversing digits
+of an integer"
+5,GCD (Greatest Common Division) of two numbers. Test whether a number is prime.
+6,"Organize numbers in ascending order. Find square root of a number, factorial computation, Fibonacci sequence."
+7,Compute sine Series. Check whether a given number is Palindrome or not.
+8,Find Square root of a quadratic equation.
+9,"Write a program for multiplication of two matrices,"
+10,"Character set, Variable and Identifiers, Built-in Data Types,"
+11,"Variable Definition, Declaration,"
+12,C Key Words-Rules & Guidelines for Naming
+13,"Arithmetic operators and Expressions, Constants and Literals"
+14,Precedence & Order of Evaluation.
+15,Simple assignment statement. Basic input/output statement.
+16,Simple C programs of the given algorithms
+17,Decision making within a program
+18,"Conditions, Relational Operators"
+19,Logical Operator AND related examples
+20,"If statement, if-else statement."
+21,Loop statements
+22,"Break, Continue, Switch"
+23,"What is an Array?, Declaring an Array"
+24,Initializing an Array. One dimensional arrays
+25,"Array manipulation: Searching,"
+26,"Insertion, Deletion of an element from an array"
+27,Finding the largest/smallest element in array
+28,"Two dimensional arrays, Addition/Multiplication of two matrices."
+29,Top-down approach of problem solving. Modular programming and functions
+30,Definition of Functions and  Recursion
+31,Standard Library of C functions
+32,"Prototype of a function: Formal parameter list, Return Type"
+33,Function call and examples
+34,Passing arguments to a Function: call by reference; call by value.
+35,Basic of Structures
+36,"Structures variables, initialization, structure assignment"
+37,"Structures and arrays: arrays of structures,"
+38,Concept of Pointers
+39,Address operators
+40,pointer type declaration
+41,pointer assignment
+42,pointer initialization pointer arithmetic.

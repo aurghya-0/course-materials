@@ -1,0 +1,39 @@
+original_file,new_file,csv_topic,csv_subtopic
+unit-01-introduction--basic-terminologies--elementary-data-organizations-classification-of-data-structures.md,unit-01-01.md,Basic Terminologies,Elementary data organizations; classification of data structures
+unit-01-introduction--data-structure-operations--insertion-deletion-traversal--general-idea-with-examples.md,unit-01-02.md,Data Structure Operations,"Insertion, deletion, traversal - general idea with examples"
+unit-01-introduction--algorithm-analysis--steps-of-analyzing-algorithms-intro-to-complexity.md,unit-01-03.md,Algorithm Analysis,"Steps of analyzing algorithms, intro to complexity"
+unit-01-introduction--asymptotic-notations--big-o-omega-theta-with-examples.md,unit-01-04.md,Asymptotic Notations,"Big-O, Omega, Theta with examples"
+unit-01-introduction--time-space-trade-off--relationship-and-trade-offs-between-time-and-space.md,unit-01-05.md,Time-Space Trade-off,Relationship and trade-offs between time and space
+unit-01-introduction--searching-techniques--linear-search--algorithm-dry-run-complexity.md,unit-01-06.md,Searching Techniques,"Linear search - algorithm, dry run, complexity"
+unit-01-introduction--searching-techniques--binary-search--algorithm-dry-run-complexity.md,unit-01-07.md,Searching Techniques,"Binary search - algorithm, dry run, complexity"
+unit-01-introduction--searching--comparison--linear-vs-binary-search--use-cases-and-performance-comparison.md,unit-01-08.md,Searching - Comparison,Linear vs Binary Search - use cases and performance comparison
+unit-02-stacks--queues--stack-adt--operations--definition-push-pop-peek-with-stack-implementation-using-arrays.md,unit-02-09.md,Stack ADT & Operations,"Definition, push, pop, peek with stack implementation using arrays"
+unit-02-stacks--queues--stack--complexity--algorithm-walkthrough-and-complexity-analysis.md,unit-02-10.md,Stack - Complexity,Algorithm walkthrough and complexity analysis
+unit-02-stacks--queues--stack-applications--expression-conversion-infix-to-postfix-algorithm-and-dry-run.md,unit-02-11.md,Stack Applications,Expression conversion: infix to postfix (algorithm and dry run)
+unit-02-stacks--queues--stack-applications--expression-evaluation-postfix-evaluation.md,unit-02-12.md,Stack Applications,Expression evaluation: postfix evaluation
+unit-02-stacks--queues--queue-adt--introduction-enqueue-dequeue-operations-array-based-implementation.md,unit-02-13.md,Queue ADT,"Introduction, enqueue, dequeue operations (array-based implementation)"
+unit-02-stacks--queues--simple--circular-queue--circular-queue-need-implementation-algorithm-complexity.md,unit-02-14.md,Simple & Circular Queue,"Circular queue: need, implementation, algorithm, complexity"
+unit-02-stacks--queues--priority-queue--types-of-priority-queues-basic-operations-and-analysis.md,unit-02-15.md,Priority Queue,"Types of priority queues, basic operations and analysis"
+unit-03-linked-lists--singly-linked-list--representation-creation-traversal.md,unit-03-16.md,Singly Linked List,"Representation, creation, traversal"
+unit-03-linked-lists--insertion-in-sll--insert-at-beginning-middle-end.md,unit-03-17.md,Insertion in SLL,"Insert at beginning, middle, end"
+unit-03-linked-lists--deletion-in-sll--delete-by-position-and-value.md,unit-03-18.md,Deletion in SLL,Delete by position and value
+unit-03-linked-lists--search-in-sll--searching-an-element-dry-run-complexity.md,unit-03-19.md,Search in SLL,"Searching an element, dry run, complexity"
+unit-03-linked-lists--stack--queue-in-sll--using-singly-linked-list-for-stack-and-queue-implementation.md,unit-03-20.md,Stack & Queue in SLL,Using singly linked list for stack and queue implementation
+unit-03-linked-lists--header-and-circular-lists--header-nodes-circular-list-creation-traversal.md,unit-03-21.md,Header and Circular Lists,"Header nodes, circular list creation, traversal"
+unit-03-linked-lists--doubly-linked-list--structure-insertion-and-deletion-operations.md,unit-03-22.md,Doubly Linked List,"Structure, insertion and deletion operations"
+unit-03-trees--tree-terminologies--root-leaf-internal-nodes-degree-height-level-etc.md,unit-03-23.md,Tree Terminologies,"Root, leaf, internal nodes, degree, height, level, etc."
+unit-03-trees--binary-tree--bst--creation-traversal-inorder-preorder-postorder-insertion.md,unit-03-24.md,Binary Tree & BST,"Creation, traversal (inorder, preorder, postorder), insertion"
+unit-03-trees--threaded--avl-trees--concept-rotations-in-avl-tree-height-balancing.md,unit-03-25.md,Threaded & AVL Trees,"Concept, rotations in AVL tree, height-balancing"
+unit-03-trees--tree-operations--deletion-in-bst-searching-complexity-analysis.md,unit-03-26.md,Tree Operations,"Deletion in BST, searching, complexity analysis"
+unit-03-trees--b-tree--structure-insertion-algorithm.md,unit-03-27.md,B Tree,"Structure, insertion algorithm"
+unit-03-trees--b-tree--comparison-with-b-tree-insertion-algorithm.md,unit-03-28.md,B+ Tree,"Comparison with B Tree, insertion algorithm"
+unit-03-trees--applications-of-trees--tree-applications-in-expression-trees-directory-structure.md,unit-03-29.md,Applications of Trees,"Tree applications in expression trees, directory structure"
+unit-04-sorting--hashing--sorting-basics--need-classification-internal-vs-external-stable-vs-unstable.md,unit-04-30.md,Sorting Basics,"Need, classification: internal vs external, stable vs unstable"
+unit-04-sorting--hashing--selection-sort--algorithm-dry-run-complexity.md,unit-04-31.md,Selection Sort,"Algorithm, dry run, complexity"
+unit-04-sorting--hashing--bubble--insertion-sort--algorithms-and-performance-discussion.md,unit-04-32.md,Bubble & Insertion Sort,Algorithms and performance discussion
+unit-04-sorting--hashing--quick-sort--partition-logic-recursive-implementation-complexity.md,unit-04-33.md,Quick Sort,"Partition logic, recursive implementation, complexity"
+unit-04-sorting--hashing--merge-sort--divide-and-conquer-algorithm-complexity.md,unit-04-34.md,Merge Sort,"Divide and conquer, algorithm, complexity"
+unit-04-sorting--hashing--heap-sort--max-heap-construction-sorting-process-complexity.md,unit-04-35.md,Heap Sort,"Max heap construction, sorting process, complexity"
+unit-04-sorting--hashing--sorting-comparison--comparative-analysis-of-all-techniques.md,unit-04-36.md,Sorting Comparison,Comparative analysis of all techniques
+unit-04-sorting--hashing--hashing-basics--hash-function-collision-resolution-chaining-open-addressing.md,unit-04-37.md,Hashing Basics,"Hash function, collision resolution: chaining, open addressing"
+unit-04-graphs--graphs--traversals--representation-bfs-and-dfs-algorithms-and-complexity.md,unit-04-38.md,Graphs & Traversals,"Representation, BFS and DFS algorithms and complexity"

@@ -1,0 +1,39 @@
+Unit_Name,Topic_Name,Subtopic_Description
+Unit 1: Introduction,Basic Terminologies,Elementary data organizations; classification of data structures
+Unit 1: Introduction,Data Structure Operations,"Insertion, deletion, traversal - general idea with examples"
+Unit 1: Introduction,Algorithm Analysis,"Steps of analyzing algorithms, intro to complexity"
+Unit 1: Introduction,Asymptotic Notations,"Big-O, Omega, Theta with examples"
+Unit 1: Introduction,Time-Space Trade-off,Relationship and trade-offs between time and space
+Unit 1: Introduction,Searching Techniques,"Linear search - algorithm, dry run, complexity"
+Unit 1: Introduction,Searching Techniques,"Binary search - algorithm, dry run, complexity"
+Unit 1: Introduction,Searching - Comparison,Linear vs Binary Search - use cases and performance comparison
+Unit 2: Stacks & Queues,Stack ADT & Operations,"Definition, push, pop, peek with stack implementation using arrays"
+Unit 2: Stacks & Queues,Stack - Complexity,Algorithm walkthrough and complexity analysis
+Unit 2: Stacks & Queues,Stack Applications,Expression conversion: infix to postfix (algorithm and dry run)
+Unit 2: Stacks & Queues,Stack Applications,Expression evaluation: postfix evaluation
+Unit 2: Stacks & Queues,Queue ADT,"Introduction, enqueue, dequeue operations (array-based implementation)"
+Unit 2: Stacks & Queues,Simple & Circular Queue,"Circular queue: need, implementation, algorithm, complexity"
+Unit 2: Stacks & Queues,Priority Queue,"Types of priority queues, basic operations and analysis"
+Unit 3: Linked Lists,Singly Linked List,"Representation, creation, traversal"
+Unit 3: Linked Lists,Insertion in SLL,"Insert at beginning, middle, end"
+Unit 3: Linked Lists,Deletion in SLL,Delete by position and value
+Unit 3: Linked Lists,Search in SLL,"Searching an element, dry run, complexity"
+Unit 3: Linked Lists,Stack & Queue in SLL,Using singly linked list for stack and queue implementation
+Unit 3: Linked Lists,Header and Circular Lists,"Header nodes, circular list creation, traversal"
+Unit 3: Linked Lists,Doubly Linked List,"Structure, insertion and deletion operations"
+Unit 3: Trees,Tree Terminologies,"Root, leaf, internal nodes, degree, height, level, etc."
+Unit 3: Trees,Binary Tree & BST,"Creation, traversal (inorder, preorder, postorder), insertion"
+Unit 3: Trees,Threaded & AVL Trees,"Concept, rotations in AVL tree, height-balancing"
+Unit 3: Trees,Tree Operations,"Deletion in BST, searching, complexity analysis"
+Unit 3: Trees,B Tree,"Structure, insertion algorithm"
+Unit 3: Trees,B+ Tree,"Comparison with B Tree, insertion algorithm"
+Unit 3: Trees,Applications of Trees,"Tree applications in expression trees, directory structure"
+Unit 4: Sorting & Hashing,Sorting Basics,"Need, classification: internal vs external, stable vs unstable"
+Unit 4: Sorting & Hashing,Selection Sort,"Algorithm, dry run, complexity"
+Unit 4: Sorting & Hashing,Bubble & Insertion Sort,Algorithms and performance discussion
+Unit 4: Sorting & Hashing,Quick Sort,"Partition logic, recursive implementation, complexity"
+Unit 4: Sorting & Hashing,Merge Sort,"Divide and conquer, algorithm, complexity"
+Unit 4: Sorting & Hashing,Heap Sort,"Max heap construction, sorting process, complexity"
+Unit 4: Sorting & Hashing,Sorting Comparison,Comparative analysis of all techniques
+Unit 4: Sorting & Hashing,Hashing Basics,"Hash function, collision resolution: chaining, open addressing"
+Unit 4: Graphs,Graphs & Traversals,"Representation, BFS and DFS algorithms and complexity"

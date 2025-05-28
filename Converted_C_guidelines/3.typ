@@ -1,0 +1,355 @@
+= Teaching Guideline: Programming Style --- Names, Documentation & Format, Refinement & Modularity
+<teaching-guideline-programming-style-names-documentation-format-refinement-modularity>
+
+== 1. Teaching Outline
+<teaching-outline>
+=== A. Introduction to Programming Style
+<a.-introduction-to-programming-style>
+- #strong[Definition:] The conventions and best practices developers
+  follow to write clean, readable, and maintainable code.
+- #strong[Importance:] Improves collaboration, debugging, and code
+  longevity.
+
+
+
+=== B. Naming Conventions
+<b.-naming-conventions>
+- #strong[Key Definitions:]
+
+  - #strong[Identifier:] Name given to variables, functions, constants,
+    etc.
+
+- #strong[Important Rules & Conventions:]
+
+  - Use meaningful, descriptive names.
+  - Consistent casing style:
+    - `camelCase` (e.g., `totalSum`)
+    - `snake_case` (e.g., `total_sum`)
+    - `PascalCase` for types, structs.
+  - Avoid single-letter variables except in loops (`i`, `j`).
+  - Use nouns for variables and functions that return a value.
+  - Use verbs for function names (e.g., `calculateSum()`).
+  - Constants in uppercase `MAX_SIZE`.
+
+- #strong[Examples:]
+
+  ```c
+  int studentAge;
+  float calculateArea(float radius);
+  #define MAX_STUDENTS 30
+  ```
+
+- #strong[Common Mistakes:]
+
+  - Using unclear names like `x`, `data`, or `temp`.
+  - Inconsistent naming styles in the same program.
+
+- #strong[Real-world Application:]
+
+  - Large projects with multi-person teams.
+
+
+
+=== C. Documentation
+<c.-documentation>
+- #strong[Key Definitions:]
+
+  - Inline comments, block comments, and documentation comments.
+
+- #strong[Best Practices:]
+
+  - Comment why, not what (avoid obvious comments).
+  - Use clear, concise language.
+  - Document function purpose, parameters, return values.
+  - Document complex logic and assumptions.
+
+- #strong[Syntax:]
+
+  - Single line comments: `// comment`
+  - Multi-line comments: `/* comment */`
+
+- #strong[Examples:]
+
+  ```c
+  // Calculate the area of a circle given the radius
+  float calculateArea(float radius) {
+      return 3.14 * radius * radius;
+  }
+  ```
+
+- #strong[Common Mistakes:]
+
+  - Over-commenting trivial code.
+  - Outdated comments that no longer reflect code.
+
+- #strong[Real-world Application:]
+
+  - Code maintenance and API documentation.
+
+
+
+=== D. Formatting and Code Layout
+<d.-formatting-and-code-layout>
+- #strong[Key Rules:]
+
+  - Consistent indentation (usually 2 or 4 spaces).
+  - Proper use of braces `{}`.
+  - Line length limits (80-100 characters).
+  - Blank lines to separate logical blocks.
+  - Align related code vertically when helpful.
+
+- #strong[Examples:]
+
+  ```c
+  if (condition) {
+      // indented block
+      doSomething();
+  } else {
+      doOtherThing();
+  }
+  ```
+
+- #strong[Common Mistakes:]
+
+  - Mixing tabs and spaces.
+  - Missing braces leading to bugs.
+  - Inconsistent indentation.
+
+- #strong[Real-world Application:]
+
+  - Readable code in open source and professional projects.
+
+
+
+=== E. Refinement and Clean Code Principles
+<e.-refinement-and-clean-code-principles>
+- #strong[Key Concepts:]
+
+  - Refactor to remove duplication.
+  - Keep functions short and focused.
+  - Use meaningful variable scope (local vs global).
+  - Avoid magic numbers --- use named constants.
+
+- #strong[Examples:]
+
+  ```c
+  #define PI 3.14159
+
+  float areaCircle(float radius) {
+      return PI * radius * radius;
+  }
+  ```
+
+- #strong[Common Mistakes:]
+
+  - Long functions doing too many things.
+  - Hardcoding values repeatedly.
+
+- #strong[Real-world Application:]
+
+  - Code evolution and bug reduction.
+
+
+
+=== F. Modularity and Separation of Concerns
+<f.-modularity-and-separation-of-concerns>
+- #strong[Key Definitions:]
+
+  - Breaking program into independent modules/functions.
+
+- #strong[Importance:]
+
+  - Easier testing and maintenance.
+  - Code reuse.
+
+- #strong[Techniques:]
+
+  - Use functions to encapsulate logic.
+  - Create header files for declarations.
+  - Separate implementation (`.c`) and interface (`.h`).
+
+- #strong[Examples:]
+
+  ```c
+  // math_utils.h
+  float calculateArea(float radius);
+
+  // math_utils.c
+  #include "math_utils.h"
+  float calculateArea(float radius) {
+      return 3.14 * radius * radius;
+  }
+  ```
+
+- #strong[Common Mistakes:]
+
+  - Monolithic main functions.
+  - Global variables overuse.
+
+- #strong[Real-world Application:]
+
+  - Large software systems, APIs, libraries.
+
+
+
+== 2. In-Class Practice Questions
+<in-class-practice-questions>
+
+
+
+=== Question 1: Naming Practice (Basic)
+<question-1-naming-practice-basic>
+- #strong[Problem:] Rename the variable `a` to a more meaningful name in
+  this code snippet:
+
+  ```c
+  int a = 10;
+  int b = 20;
+  int c = a + b;
+  ```
+
+- #strong[Concept Tested:] Naming conventions for variables.
+
+- #strong[Hint:] Think about what the variables represent.
+
+
+
+=== Question 2: Writing Comments (Basic)
+<question-2-writing-comments-basic>
+- #strong[Problem:] Add a comment explaining the purpose of this
+  function:
+
+  ```c
+  int square(int x) {
+      return x * x;
+  }
+  ```
+
+- #strong[Concept Tested:] Effective and meaningful documentation.
+
+- #strong[Hint:] Describe what the function does, not how.
+
+
+
+=== Question 3: Correct Indentation and Braces (Intermediate)
+<question-3-correct-indentation-and-braces-intermediate>
+- #strong[Problem:] Fix the formatting of this code snippet:
+
+  ```c
+  if(x>0){
+  printf("Positive");
+  }else
+  {
+  printf("Non-positive");
+  }
+  ```
+
+- #strong[Concept Tested:] Formatting and code readability.
+
+
+
+=== Question 4: Refactoring into Functions (Intermediate)
+<question-4-refactoring-into-functions-intermediate>
+- #strong[Problem:] Refactor this repeated code so it's modular:
+
+  ```c
+  printf("Area of circle: %f\n", 3.14 * r1 * r1);
+  printf("Area of circle: %f\n", 3.14 * r2 * r2);
+  ```
+
+- #strong[Concept Tested:] Modularity and avoiding code duplication.
+
+- #strong[Hint:] Create a function to calculate the area.
+
+
+
+=== Question 5: Modularizing Code with Header and Source Files (Advanced)
+<question-5-modularizing-code-with-header-and-source-files-advanced>
+- #strong[Problem:] Given a main program that calculates areas, outline
+  how you would organize it with header and source files.
+- #strong[Concept Tested:] Separation of concerns, modularity in project
+  structure.
+- #strong[Hint:] Identify the functions, create `.h` for declarations
+  and `.c` for implementations.
+
+
+
+== 3. Homework Practice Questions
+<homework-practice-questions>
+
+
+
+=== Homework 1: Naming and Documentation (Basic)
+<homework-1-naming-and-documentation-basic>
+- #strong[Problem:] Write a simple C program that calculates the area of
+  a rectangle. Use clear variable names and add comments explaining the
+  code.
+- #strong[Concept Tested:] Naming conventions and documentation.
+
+
+
+=== Homework 2: Formatting Code (Intermediate)
+<homework-2-formatting-code-intermediate>
+- #strong[Problem:] Given poorly formatted code, rewrite it with proper
+  indentation, spacing, and braces:
+
+  ```c
+  for(int i=0;i<5;i++){
+  printf("%d\n",i);}
+  ```
+
+- #strong[Concept Tested:] Code format and readability.
+
+
+
+=== Homework 3: Refinement (Intermediate)
+<homework-3-refinement-intermediate>
+- #strong[Problem:] Refactor this code to eliminate magic numbers and
+  improve readability:
+
+  ```c
+  int circumference = 2 * 3.14 * radius;
+  ```
+
+- #strong[Concept Tested:] Use of named constants (\#define or const).
+
+
+
+=== Homework 4: Creating Modular Functions (Advanced)
+<homework-4-creating-modular-functions-advanced>
+- #strong[Problem:] Write a C program split into two files (`math_ops.c`
+  and `math_ops.h`) that provide functions to compute the area of a
+  circle and the circumference. Include proper documentation and
+  modularize your code.
+- #strong[Concept Tested:] Modularity, header/source files,
+  documentation.
+
+
+
+=== Homework 5: Code Review and Improvement (Advanced)
+<homework-5-code-review-and-improvement-advanced>
+- #strong[Problem:] Review the following code snippet. Identify at least
+  three style problems and suggest improvements:
+
+  ```c
+  int x=0;
+  void foo(){
+  for(x=0;x<10;x++){
+  printf("%d",x);}
+  }
+  ```
+
+- #strong[Concept Tested:] Style critique, naming, scope, formatting.
+
+
+
+= Additional Tips for The Teacher:
+<additional-tips-for-the-teacher>
+- Encourage live coding demonstrations.
+- Highlight the difference a good style can make by showing poorly
+  styled vs well-styled code.
+- Use pair programming or group discussion for in-class exercises.
+- Provide quick quizzes or flash cards for naming conventions and
+  formatting.
+- Use real open-source projects to exemplify modularity and
+  documentation standards.
