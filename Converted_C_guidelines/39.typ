@@ -1,7 +1,5 @@
-= Teaching Guideline: Address Operators in C
+= Address Operators in C
 <teaching-guideline-address-operators-in-c>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -206,9 +204,3 @@ operator works on each.
   and addresses work in memory.
 - Reinforce that the address operator obtains numbers (memory
   addresses), while dereferencing accesses the value at that address.
-
-
-
-This guideline aims to give students a solid foundation on address
-operators, an essential building block for mastering pointers and memory
-in C programming.

@@ -1,7 +1,5 @@
-= Teaching Guideline: Concept of Pointers in C
+= Concept of Pointers in C
 <teaching-guideline-concept-of-pointers-in-c>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -189,9 +187,3 @@
   identification (optional for more advanced students). \
 - Promote pair programming for in-class exercises to foster discussion
   and peer learning.
-
-
-
-This guideline offers a balanced approach combining theory, practice,
-and safety for mastering the basics of pointers suitable for a bootcamp
-environment.

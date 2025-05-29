@@ -1,11 +1,4 @@
-Certainly! Below is a comprehensive teaching guideline designed for a
-bootcamp setting on #strong[Conditions and Relational Operators] in C
-programming. It balances clarity, engagement, and reinforcement for
-learners with basic programming knowledge.
-
-
-
-= Teaching Guideline: Conditions and Relational Operators in C
+= Conditions and Relational Operators in C
 <teaching-guideline-conditions-and-relational-operators-in-c>
 
 
@@ -276,10 +269,3 @@ if (x = 7) {
 - Highlight error messages generated from common mistakes.
 - Provide instant feedback on in-class exercises.
 - Periodically recap to reinforce logic flow involving conditions.
-
-
-
-This guideline should empower instructors to deliver lively, clear, and
-conceptually thorough lessons on using conditions and relational
-operators in C programming, balancing theoretical understanding with
-practical coding skills.

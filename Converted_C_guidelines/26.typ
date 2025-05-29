@@ -1,7 +1,4 @@
-#strong[Teaching Guideline: Insertion and Deletion of an Element from an
-Array (C Programming)]
-
-
+= Insertion and Deletion of an Element from an Array (C Programming)
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -168,12 +165,3 @@ Array (C Programming)]
 - #strong[Difficulty:] Medium
 - #strong[Key Concept:] Understanding static arrays limitations and
   comparison with dynamic data structures.
-
-
-
-#strong[Note to Instructor:] \
-Use live coding sessions to demonstrate insertion and deletion visually
-with print statements after every shift operation. Encourage students to
-trace the array changes step by step. Reinforce boundary condition
-checks to instill writing safe C programs. Use diagrammatic
-illustrations to clarify shifting logic.

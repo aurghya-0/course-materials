@@ -1,7 +1,5 @@
-= Teaching Guideline: Array Manipulation - Searching (C Programming)
+= Array Manipulation - Searching (C Programming)
 <teaching-guideline-array-manipulation---searching-c-programming>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -252,9 +250,3 @@ binary search in terms of efficiency, when to use each, and limitations.
   visually). \
 - Discuss efficiency benefits to motivate learning binary search over
   linear search for sorted data.
-
-
-
-This guideline aims to build a strong foundational understanding of
-searching in arrays, blending theory, practice, and real-world context
-suited for a dynamic bootcamp setting.

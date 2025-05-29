@@ -1,11 +1,4 @@
-Certainly! Below is a detailed teaching guideline for the topic
-#strong[Break, Continue, and Switch] in C programming, tailored for a
-bootcamp setting. It is structured to ensure clarity, engagement, and
-reinforcement.
-
-
-
-== Teaching Guideline: Break, Continue, and Switch Statements in C
+= Break, Continue, and Switch Statements in C
 <teaching-guideline-break-continue-and-switch-statements-in-c>
 
 
@@ -232,12 +225,3 @@ Use a switch statement inside a loop. Use break correctly to exit and
 continue to skip invalid commands with a message. \
 #emph[Difficulty:] Medium-Advanced \
 #emph[Concept:] Loop, switch, break, and continue combined.
-
-
-
-This guideline aims to give instructors a comprehensive and engaging
-structure to teach #strong[Break, Continue, and Switch] statements,
-mixing theory, code practice, error awareness, and real-world relevance.
-
-Would you like sample solutions or detailed code snippets for these
-exercises?

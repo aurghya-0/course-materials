@@ -1,10 +1,4 @@
-Certainly! Below is a detailed teaching guideline on #strong[Loop
-Statements in C] tailored for a bootcamp setting, designed to ensure
-clarity, engagement, and deep concept reinforcement.
-
-
-
-= Teaching Guideline: Loop Statements in C
+= Loop Statements in C
 <teaching-guideline-loop-statements-in-c>
 
 
@@ -259,17 +253,6 @@ using a loop to check divisibility. \
 #strong[Concept:] Loop with conditional checks and break inside loops.
 
 
-
-
-
 #strong[Note:] For all coding exercises, encourage students to: - Write
 clean, readable code. - Add comments explaining their logic. - Think
 about edge cases (e.g., zero, negative inputs etc.).
-
-This guideline ensures learners can grasp looping basics, get hands-on
-with the concept, and apply them beyond classroom examples.
-
-
-
-If you want, I can also provide sample solutions or further elaboration
-on any of the items. Would you like that?

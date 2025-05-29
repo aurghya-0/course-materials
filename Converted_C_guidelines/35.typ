@@ -1,4 +1,4 @@
-#strong[Teaching Guideline for “Basics of Structures in C”]
+= Basics of Structures in C
 
 
 
@@ -220,8 +220,3 @@ structure elements.
 - Provide code snippets as starting templates.
 - Use simple analogies (e.g., structure is like a “box” containing
   related items).
-
-
-
-This guideline ensures clarity, hands-on learning, and progressive
-mastery of C structures suitable for bootcamp learners.

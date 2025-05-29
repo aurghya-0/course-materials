@@ -1,7 +1,5 @@
-= Teaching Guideline: Pointer Initialization & Pointer Arithmetic in C
+= Pointer Initialization & Pointer Arithmetic in C
 <teaching-guideline-pointer-initialization-pointer-arithmetic-in-c>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -222,9 +220,3 @@ and arithmetic.
 - Use diagrams to visually explain pointer movements in memory.
 - For the operator precedence question, consider using drawings or
   tables to clarify.
-
-
-
-This guideline provides a scaffolded, interactive learning path to
-master pointer initialization and pointer arithmetic in C with practical
-examples and exercises reinforcing concepts at every stage.

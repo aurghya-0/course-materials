@@ -1,7 +1,5 @@
-= Teaching Guideline: Definition of Functions and Recursion in C
+= Definition of Functions and Recursion in C
 <teaching-guideline-definition-of-functions-and-recursion-in-c>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -215,9 +213,3 @@ it.
 - Encourage students to test boundary conditions (0, negative inputs).
 - Promote writing comments to clarify function purpose.
 - Regularly recap and link new concepts to previous knowledge.
-
-
-
-This guideline should help structure a clear, engaging, and thorough
-session on functions and recursion in C, building solid foundational
-skills for bootcamp learners.

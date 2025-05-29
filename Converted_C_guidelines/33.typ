@@ -1,7 +1,5 @@
-= Teaching Guideline: Function Call and Examples in C Programming
+= Function Call and Examples in C Programming
 <teaching-guideline-function-call-and-examples-in-c-programming>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -251,7 +249,3 @@ mechanism.
 - Reinforce the difference between declaration, definition, and
   invocation.
 - Utilize errors from common mistakes as teachable moments.
-
-This guideline covers the fundamental concepts of function calls in C,
-balancing theory with hands-on practice to support beginner learners
-progressing in their programming skills.

@@ -1,11 +1,4 @@
-Certainly! Below is a comprehensive teaching guideline for the topic
-#strong["If statement, if-else statement"] tailored for a C programming
-bootcamp. It is designed to maximize clarity, engagement, and
-reinforcement of concepts.
-
-
-
-= Teaching Guideline: If Statement and If-Else Statement in C
+= If Statement and If-Else Statement in C
 <teaching-guideline-if-statement-and-if-else-statement-in-c>
 
 
@@ -232,9 +225,3 @@ else
 - Reinforce the "common mistakes" slide by intentionally making errors
   and debugging aloud.
 - Always relate back to real-world usage scenarios for motivation.
-
-
-
-This guideline ensures a thorough understanding of basic conditional
-statements in C and provides varied practice for students at different
-skill levels.

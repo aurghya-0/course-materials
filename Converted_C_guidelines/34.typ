@@ -1,4 +1,4 @@
-= Teaching Guideline for Bootcamp Session: Passing Arguments to a Function in C
+= Passing Arguments to a Function in C
 <teaching-guideline-for-bootcamp-session-passing-arguments-to-a-function-in-c>
 == Topic: Call by Value vs Call by Reference
 <topic-call-by-value-vs-call-by-reference>
@@ -212,9 +212,3 @@ with complex data types.
 - Quickly address common syntax errors to avoid student frustration. \
 - When assigning homework, encourage students to explain their code in
   their own words to internalize concepts.
-
-
-
-This guideline provides a comprehensive framework for teaching the
-concept of passing arguments in C using call by value and call by
-reference effectively in a bootcamp environment.

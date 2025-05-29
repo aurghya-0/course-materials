@@ -1,7 +1,5 @@
-= Teaching Guideline: Pointer Type Declaration in C
+= Pointer Type Declaration in C
 <teaching-guideline-pointer-type-declaration-in-c>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -172,6 +170,3 @@
   for engagement.
 - Use common real-life analogies, e.g., pointers as "home addresses" to
   help understanding.
-
-This guideline ensures learners build a solid foundation in pointer type
-declaration while engaging both conceptually and practically.

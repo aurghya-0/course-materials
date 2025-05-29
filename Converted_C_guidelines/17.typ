@@ -1,4 +1,4 @@
-= Teaching Guideline: Decision Making within a Program (C Language)
+= Decision Making within a Program (C Language)
 <teaching-guideline-decision-making-within-a-program-c-language>
 
 
@@ -165,9 +165,3 @@ conditions and print `"Vowel"` or `"Not a vowel"`. \
 - Suggest students test edge cases for their decision logic blocks. \
 - Highlight how decision making improves user experience in
   applications.
-
-
-
-This guideline should help teachers deliver a clear, engaging session on
-decision making in C programming, building foundational skills critical
-to writing dynamic programs.

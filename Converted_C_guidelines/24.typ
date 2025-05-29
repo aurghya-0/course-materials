@@ -1,7 +1,5 @@
-= Teaching Guideline for Topic: Initializing a One-Dimensional Array in C
+= Initializing a One-Dimensional Array in C
 <teaching-guideline-for-topic-initializing-a-one-dimensional-array-in-c>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -150,10 +148,3 @@
 
   - #emph[Difficulty:] Easy \
   - #emph[Concept:] Understanding partial initialization behavior.
-
-
-
-This guideline balances conceptual understanding with practical coding
-exercises and includes pointers to avoid common pitfalls. The mix of
-declarative knowledge and active coding will engage students effectively
-in a bootcamp environment.

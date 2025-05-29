@@ -1,7 +1,5 @@
-= Teaching Guideline: Finding the Largest/Smallest Element in an Array (in C)
+= Finding the Largest/Smallest Element in an Array (in C)
 <teaching-guideline-finding-the-largestsmallest-element-in-an-array-in-c>
-
-
 
 == 1. Teaching Outline
 <teaching-outline>
@@ -211,10 +209,3 @@ code.
   verbalize their thought process.
 - Use pair programming or group discussion for in-class practice.
 - Consider a small quiz or flashcards for quick conceptual recall.
-
-
-
-This guideline is aimed to provide structure and promote deep
-understanding of array traversal and comparison concepts focusing on
-finding maximal and minimal elements, foundational for many programming
-tasks.
